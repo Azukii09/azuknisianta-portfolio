@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+.sidebar-active {
+    @apply scale-x-100
+}
+
+.navbar-menu {
+    @apply flex
+}
+
+.navbar-menu > a {
+    @apply py-3 px-6 capitalize w-full text-base font-bold text-secondary tracking-wider
+}
+
+.mobile-hamburger-list {
+    @apply border border-t-0 border-secondary flex mt-2 shadow-inner
+}
+
+.mobile-hamburger-list > a {
+    @apply py-3 px-6 uppercase w-full text-base font-black text-accent border-opacity-80 flex items-center
+}
+
+.mobile-hamburger-list > span {
+    @apply flex text-lg items-center justify-center px-6 border-l border-l-accent font-bold text-accent
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply w-[30px] -rotate-45;
+}
+
+.circle-progress{
+    @apply  stroke-accent fill-none
+}
