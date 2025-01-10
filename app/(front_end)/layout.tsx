@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "@/app/(front_end)/_feature/_navbar";
+import Footer from "@/app/(front_end)/_feature/_footer";
 
 export default function FrontEnd({
     children,
@@ -19,6 +20,7 @@ export default function FrontEnd({
             {/*        </div>*/}
             {/*    </div>*/}
             {/*</div>*/}
+            <Footer/>
         </div>
     );
 }
