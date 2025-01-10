@@ -50,17 +50,15 @@ export default function Navbar() {
                         <div>
                             <ul className="absolute top-20 bg-slate-600 text-white left-0 w-full h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 text-xl z-30">
                                 {dataNavbar.map((item, index) => (
-                                    <li className="mobile-hamburger-list group" key={index}>
+                                    <li className="border border-t-0 border-secondary flex mt-2 shadow-inner group" key={index}>
                                         <Link href={item.link}
-                                              className={"group-hover:bg-primary group-hover:text-white  justify-between"}>
+                                              className={"py-3 px-6 uppercase w-full text-base font-black text-accent border-opacity-80 flex items-center group-hover:bg-primary group-hover:text-white  justify-between"}>
                                             {item.name}
                                             <span
-                                                className={"px-6 h-full w-fit border-l-2 group-hover:text-white group-hover:border-l-white"}>{`>`}</span>
+                                                className={"flex text-lg items-center justify-center px-6 border-l border-l-accent font-bold text-accent h-full w-fit  group-hover:text-white group-hover:border-l-white"}>{`>`}</span>
                                         </Link>
                                     </li>
                                 ))}
-
-
                             </ul>
                         </div>
                     )}
