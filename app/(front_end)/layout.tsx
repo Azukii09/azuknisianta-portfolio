@@ -11,9 +11,7 @@ export default function FrontEnd({
         <div>
             <Navbar />
             <div className="fixed px-6 sm:px-8 md:px-16 lg:px-20 top-20 w-full h-full z-10">
-                <div className={"top-20 w-full h-full bg-contras rounded flex justify-between"}>
-                    {children}
-                </div>
+                {children}
             </div>
             <Footer/>
         </div>
