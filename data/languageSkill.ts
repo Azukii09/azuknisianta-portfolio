@@ -7,12 +7,12 @@ const language = [
     {
         id:2,
         language:"English",
-        percentage:80,
+        percentage:70,
     },
     {
         id:3,
         language:"Javanes",
-        percentage:80,
+        percentage:90,
     },
 ]
 

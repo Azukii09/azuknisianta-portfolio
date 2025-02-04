@@ -11,6 +11,10 @@ const interest = [
         id:3,
         name:"Cinema",
     },
+    {
+        id:4,
+        name:"Data Science",
+    },
 ]
 
 export const getInterstAbout = ()=>{

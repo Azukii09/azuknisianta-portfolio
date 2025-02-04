@@ -12,7 +12,7 @@ const skill = [
     {
         id:3,
         label:"Javascript",
-        percentage:80,
+        percentage:90,
     },
     {
         id:4,
@@ -27,12 +27,12 @@ const skill = [
     {
         id:6,
         label:"Tailwind CSS",
-        percentage:80,
+        percentage:85,
     },
     {
         id:7,
         label:"Next JS",
-        percentage:75,
+        percentage:85,
     },
     {
         id:8,
@@ -53,6 +53,21 @@ const skill = [
         id:11,
         label:"Postgresql",
         percentage:85,
+    },
+    {
+        id:12,
+        label:"Git",
+        percentage:80,
+    },
+    {
+        id:13,
+        label:"GitHub",
+        percentage:85,
+    },
+    {
+        id:14,
+        label:"Docker",
+        percentage:80,
     },
 ]
 
